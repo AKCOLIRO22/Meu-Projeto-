@@ -9,5 +9,9 @@ main img {
     width: 286px;
     height: 286px;
     object-fit: cover;
+    transition: filter 0.3s ease-in-out, border 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
 
+main img:hover{
+    filter: blur(2px);
 }
